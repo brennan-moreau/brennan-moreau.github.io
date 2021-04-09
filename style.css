@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #4f6457;
+    height: 100px;
+    position: relative;
+    -webkit-box-shadow: -1px -13px 0px 15px #000000; 
+    box-shadow: -1px -13px 0px 15px #000000;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a{
+    float: right;
+    margin: 45px 30px 0 0;
+}
+
+.navbar a:hover{
+    color: #d9b44a;
+    transform: scale(1.1);
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none   ;
+}
+
+.title-index{
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;   
+    float: left;
+    margin: 30px 0 0 20px;
+}
+
+.main{
+    height: 1050px;
+    background-color: #86ac41;
+}
+
+.main-index{
+    height: 800px;
+    background-color: #86ac41;
+}
+
+.imgmain{
+    display: block;
+    height: 400px;
+    margin: 50px auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px 1px #000000; 
+    box-shadow: 0px 0px 15px 1px #000000;
+}
+
+.title-main{
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;  
+    margin: 0;
+    padding: 300px 0 0 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pr-index{
+    text-align: center;
+}
+
+.theme-main{
+    padding: 100px 0 0 0;
+    margin: 0;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100; 
+    
+}
+
+.pr-main{
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+    padding: 15px;
+    margin: 55px 185px 0 185px;
+    border: 2px solid #000000;
+    border-radius: 24px;
+    outline-offset: 50px;
+}
+
+footer{
+    background-color:#4f6457;
+    height: 100px;
+    -webkit-box-shadow: -1px 13px 0px 15px #000000; 
+box-shadow: -1px 13px 0px 15px #000000;
+}
+
+.pr-footer{
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
